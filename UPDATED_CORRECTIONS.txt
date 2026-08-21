@@ -1,0 +1,12 @@
+UPDATED VERSION
+
+1. Membership card remains landscape, 86 mm × 54 mm.
+2. Added premium NDC navy/royal/red/gold geometric design pattern.
+3. Removed all expiry/valid-until concepts.
+4. Added Ward, Local Government and State EXCO registration levels.
+5. Added separate position lists for each EXCO level.
+6. Admin replacement logic now respects jurisdiction by level.
+7. QR verification shows EXCO level, position, jurisdiction and active/replaced status.
+8. Active card remains current until an administrator replaces or changes the office holder.
+9. Firebase Storage is not used.
+10. The only deployment configuration required is firebase-config.js, plus Firebase console setup.
