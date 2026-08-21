@@ -1,12 +1,9 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// =====================================================
+// NDC EXCO MEMBERSHIP PORTAL
+// FIREBASE CONFIGURATION
+// =====================================================
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyCxLbTdWNF51K828uldtVmvKedg2oMygK0",
   authDomain: "ndc-ward-exco-membership.firebaseapp.com",
   projectId: "ndc-ward-exco-membership",
@@ -16,6 +13,10 @@ const firebaseConfig = {
   measurementId: "G-FS38YNTWL6"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// =====================================================
+// NIN VERIFICATION
+// Leave empty until the secure NIMC/NINAuth
+// backend endpoint is available.
+// =====================================================
+
+export const NIN_VERIFY_ENDPOINT = "";
