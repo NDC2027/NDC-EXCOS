@@ -1,0 +1,1 @@
+Original professional NDC EXCO ID card design. No uploaded sample is used as the template. Card size: CR80 85.60 mm x 53.98 mm landscape. No printed expiry date. Ward/LGA/State fields adapt dynamically.

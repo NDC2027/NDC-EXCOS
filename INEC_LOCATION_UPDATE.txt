@@ -1,0 +1,19 @@
+NDC EXCO PORTAL — INEC LOCATION UPDATE
+
+This build includes the full hierarchical selection flow:
+State -> LGA -> Ward / Registration Area -> Polling Unit.
+
+PRIMARY SOURCE
+Official INEC Polling Units endpoints used by:
+https://www.inecnigeria.org/polling-units/
+
+FALLBACK
+If the official INEC site blocks a cross-origin browser request, GitHub Pages automatically falls back to a public 2025 snapshot scraped from the same INEC source. The snapshot reports:
+- 37 States/FCT
+- 774 LGAs
+- 8,809 Wards/Registration Areas
+- 176,846 Polling Units
+
+The Polling Unit Code / Delimitation field is populated automatically after a polling unit is selected.
+
+The location lists are cached for 24 hours in the browser. Use "Refresh INEC Lists" on the registration page to request fresh data.
